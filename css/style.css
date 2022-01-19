@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	font-family: 'Lato', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+}
+.left-top-header {
+    width: 100%;
+    padding-top: 10px;
+}
+.left-top-header ul{
+	padding: 0px;
+	margin: 0px;
+}
+.left-top-header ul li{
+	list-style: none;
+	display: inline-block;
+}
+.left-top-header ul li a {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+    color: #506a85;
+}
+.left-top-header ul li a:hover{
+	color: #00bc9c;
+}
+.left-top-header ul li a i{
+	margin-right: 10px;
+}
+
+.right-top-header{
+	width: 100%;
+	padding-top: 10px;
+}
+.right-top-header ul{
+	float: right;
+}
+.right-top-header ul li{
+	list-style: none;
+	display: inline-block;
+}
+.right-top-header ul li a{
+	font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+    color: #506a85;
+}
+.right-top-header ul li a:hover{
+	color: #00bc9c;
+}
+
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgb(255, 255, 255, .9);
+}
+.navbar-wrapper {
+    margin-top:0px;
+    width: 100%;
+    position: relative;
+    z-index: 15;
+}
+
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light {
+    background-color: transparent !important;
+}
+
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 11px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #00bc9c;
+}
+
+.slider-section{
+	width: 100%;
+}
+.slider-section .carousel-caption h2 {
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.slider-section .carousel-caption p{
+	font-size: 16px;
+    line-height: 26px;
+	color: #a3b1bf;
+}
+.slider-section .carousel-caption .btn-info{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    border-radius: 2px;
+    margin-top: 30px;
+    background: #00bc9c;
+    color:#fff;
+    border: 1px solid #00bc9c;
+}
+.slider-section .carousel-caption .btn-info:hover{
+	background: transparent;
+    color:#00bc9c;
+    border: 1px solid #00bc9c;
+}
+.carousel-caption{
+	position: absolute;
+    right: 15%;
+    bottom: 32%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.who-we-are{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-are .title{
+	text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+.who-we-are .sub-title {
+    text-align: center;
+    font-size: 17px;
+    line-height: 28px;
+    color: #506a85;
+}
+.featured {
+	width: 100%;
+    padding: 50px 0 0 0;
+}
+.left-featured{
+	width: 30%;
+    padding: 0 0 0  30px;
+}
+.right-featured{
+	width: 70%;
+}
+.featured img{
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+.latest-work{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.latest-work .latest-inner{
+
+}
+.latest-work .latest-inner img{
+	width: 100%;
+}
+.latest-work .bottom-inner{
+	padding: 30px 0px;
+	background: #fff;
+}
+
+.owl-carousel{
+	margin-top: 50px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section .title{
+    font-size: 42px;
+    color: #506a85;
+    margin-bottom: 40px;
+}
+.contact-section .sub-title {
+    font-size: 17px;
+    color: #506a85;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.contact-section .btn {
+    padding: 10px 30px;
+    background: #00bc9c;
+    color:#fff;
+    border: 1px solid #00bc9c;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+}
+
+.contact-section .btn:hover {
+    transform: scale(1.03,1.03);
+}
+
+/* Footer Top*/
+
+.footer-top {
+    background: #2f4052;
+    color: #fff;
+    width: 100%;
+}
+.footer-top-inner{
+    width: 100%;
+    padding: 70px 0px 60px 0px;
+}
+.footer-top-inner h4{
+    margin-bottom: 20px;
+}
+.footer-top .form-control {
+    background: transparent;
+    width: 160px;
+    border-radius: 0;
+    border: 1px solid #00bc9c;
+}
+.footer-top .btn {
+    border-radius: 0;
+    background: #00bc9c;
+    color: #fff;
+    border: 1px solid #00bc9c;
+}
+
+.footer-top i {
+    font-size: 20px;
+    padding: 0 10px;
+}
+.gallery{
+    width: 100%;
+}
+.gallery img{
+    width: 100%;
+}
+.bottom-footer{
+    width: 100%;
+    padding:10px 0px;
+    background: #283645; 
+}
+.bottom-footer p{
+    padding-top: 12px;
+}
+.bottom-footer ul{
+    padding-top: 12px;
+}
+.bottom-footer ul li{
+    list-style: none;
+    display: inline-block;
+}
+.bottom-footer ul li a{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #506a85;
+}
+.bottom-footer ul li a:hover{
+    color: #00bc9c;
+}
+.bottom-footer ul li a .fa{
+    font-size: 5px;
+    line-height: 5px;
+}
+/*************************************************
+    *** CSS Resopnsive Media Query Code Goes here
+**************************************************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .carousel-caption{
+        display: block !important;
+        position: absolute;
+        right: 15%;
+        bottom: 15%;
+        left: 15%;
+    } 
+    .slider-section .carousel-caption .btn-info{
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+    .slider-section .carousel-caption h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .slider-section .carousel-caption p{
+        display: none;
+    }
+
+    .who-we-are .title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .latest-work .latest-inner {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .gallery img{
+        width: 100%;
+    }
+    .right-top-header ul{
+        float: left;
+    }
+/****
+End
+****/   
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .carousel-caption{
+        display: block !important;
+        position: absolute;
+        right: 15%;
+        bottom: 15%;
+        left: 15%;
+    } 
+    .slider-section .carousel-caption .btn-info{
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+    .slider-section .carousel-caption h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .slider-section .carousel-caption p{
+        display: block;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .right-top-header ul{
+        float: left;
+    }
+    .who-we-are .title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .latest-work .latest-inner {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .gallery img{
+        width: 100%;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+
+
+
+
